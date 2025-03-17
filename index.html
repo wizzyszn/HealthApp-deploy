@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Home</title>
+  </head>
+  <body class="">
+    <!-- Navigation Bar -->
+    <div id="navbar"></div>
+    <div id="draw"></div>
+    <!-- Hero section/slider -->
+    <div class="relative w-full min-h-0">
+      <section
+        class="w-full min-h-svh bg-blue-200 flex items-center absolute"
+        id="hero"
+      >
+        <img
+          src="./assets/images/Flux_Dev_Generate_image_for_hero_section_containing_three_to_f_2.jpeg"
+          alt="hero"
+          class="w-full absolute inset-0 h-full -z-0 hero-img active"
+        />
+        <img
+          src="./assets/images/Flux_Dev_Generate_image_for_hero_section_containing_three_to_f_3.jpeg"
+          alt="hero"
+          class="w-full absolute inset-0 h-full object-fit -z-0 hero-img"
+        />
+        <div class="content">
+          <h1>Excellence in Health</h1>
+          <p>Our passion is caring.</p>
+          <button>
+            <span>Learn more</span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="content">
+          <h1>Best trusted hospital in town</h1>
+          <p>Good care is what you deserve.</p>
+          <button>
+            <span>Learn more</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+        <!-- navigation buttons-->
+        <div class="w-full z-40 flex justify-between mx-12 max-[768px]:hidden">
+          <button
+            class="bg-[#3784a6] hover:bg-black p-3 rounded-md transition-colors ease-out duration-300"
+            id="nav-btn-left"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-9 text-white"
+            >
+              <path
+                fillRule="evenodd"
+                d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
+          <button
+            class="bg-[#3784a6] hover:bg-black transition-colors ease-out duration-300 p-3 rounded-md"
+            id="nav-btn-right"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-9 text-white"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </section>
+      <!--Appointment form-->
+      <section
+        class="min-h-[20rem] w-full mt-[-100px] max-[767px]:m-0 max-[767px]:static absolute"
+        id="appoint"
+      >
+        <div
+          class="appointment-card w-[97%] min-h-full mx-auto bg-[#fff] rounded-md shadow-[0px 0px 25px #bdbdbd59] grid grid-cols-6 max-[767px]:flex max-[767px]:flex-col p-4 max-[767px]:w-full"
+        >
+          <div
+            class="col-span-2 border-[3px] border-gray-200 p-4 flex flex-col gap-4 border-dashed rounded-md"
+          >
+            <div
+              class="flex items-center gap-4 max-[767px]:flex-col max-[767px]:items-start"
+            >
+              <div>
+                <img
+                  src="./assets/images/appointment_1982882.png"
+                  alt="headphones"
+                  class="size-20"
+                />
+              </div>
+              <div>
+                <span>Phone appointment</span>
+                <h5 class="text-2xl font-bold text-[#3784a6]">
+                  +234 8055 68 90 99
+                </h5>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 mt-5">
+              <h3 class="text-3xl font-bold">Best Healthcare</h3>
+              <p>
+                To get a better health service, you can make an appointment with
+                our hospital by using the form on the side. Or you can make a
+                quick appointment by calling us.
+              </p>
+            </div>
+            <button
+              class="px-12 py-5 bg-[#3784a6] text-white rounded-[5px] w-fit flex items-center text-lg mt-2 hover:bg-black transition-colors ease-out duration-300 font-bold"
+            >
+              <span>Contact us</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="col-start-3 col-end-7 p-4">
+            <h2 class="text-3xl font-bold">Make an Appointment Now!</h2>
+            <form
+              action=""
+              class="w-full grid grid-cols-3 gap-4 p-4 rounded-lg max-[767px]:grid max-[767px]:grid-cols-1"
+              id="appointment-form"
+            >
+              <select
+                name="departments"
+                class="form-input"
+                aria-label="Select Department"
+                required
+              >
+                <option selected disabled value="">Departments</option>
+                <option>Italian</option>
+                <option>Japanese</option>
+                <option>Indian</option>
+                <option>Thai</option>
+                <option>French</option>
+              </select>
+              <input
+                type="date"
+                name="date"
+                aria-label="Date"
+                class="form-input"
+              />
+              <select
+                name="favorite-cuisine"
+                aria-label="Select your favorite cuisine..."
+                required
+                class="form-input"
+              >
+                <option selected disabled value="">Reservation Time</option>
+                <option>Italian</option>
+                <option>Japanese</option>
+                <option>Indian</option>
+                <option>Thai</option>
+                <option>French</option>
+              </select>
+              <input
+                type="text"
+                name="name"
+                placeholder="Full Name"
+                aria-label="Text"
+                class="form-input"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                aria-label="Email"
+                autocomplete="email"
+                class="form-input"
+              />
+              <input
+                type="text"
+                name="number"
+                placeholder="Phone Number"
+                aria-label="Number"
+                class="form-input"
+              />
+              <button
+                class="w-fit max-[767px]:w-full px-12 py-6 bg-[#3784a6] rounded-[5px] mt-3 text-white flex justify-center hover:bg-black transition-colors ease-out duration-300"
+              >
+                <span class="font-bold">Create Appointment</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section
+      class="mt-[20rem] min-h-[40rem] w-full p-10 max-[767px]:pb-8 max-[767px]:mt-2"
+      id="about"
+    >
+      <div
+        class="w-[70%] mx-auto min-h-0 grid grid-cols-3 max-[767px]:w-full max-[767px]:flex-col max-[767px]:flex"
+      >
+        <div
+          class="relative col-span-2 max-[767px]:h-[20rem] max-[767px]:overflow-hidden max-[767px]:w-[20rem]"
+        >
+          <img
+            class="absolute object-contain max-[767px]:object-cover w-full h-full"
+            src="./assets/images/three-doctors-white-indian-woman-with-stethoscope-african-men_105818-440-removebg-preview.png"
+            alt="docs"
+          />
+        </div>
+        <div class="col-start-3 col-end-4 pt-10">
+          <div class="flex flex-col gap-3">
+            <h3 class="text-3xl font-bold">
+              Experienced Doctors For All Care Services
+            </h3>
+            <p class="font-medium text-lg">
+              We are here To Provide You with The Best Quality Service
+            </p>
+          </div>
+          <p class="mt-5">
+            We provide services in our hospital by moving forward with
+            confidence with constantly renewed technology and future-oriented
+            investments. It receives reports with state-of-the-art devices. We
+            start the treatment by making the correct diagnosis with our
+            specialist physicians.
+          </p>
+          <div class="grid grid-cols-2 gap-3 mt-6 traits">
+            <span class="flex gap-2 items-center"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>Expert Doctors</span>
+            </span>
+            <span class="flex gap-2 items-center"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>Hi-Tech Devices</span>
+            </span>
+            <span class="flex gap-2 items-center"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>Instant Operation</span>
+            </span>
+            <span class="flex gap-2 items-center"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>Friendly Team</span>
+            </span>
+          </div>
+          <button
+            class="flex items-center justify-center font-bold border px-12 py-[1.3rem] bg-[#3784a6] mt-5 text-white rounded-[5px] hover:bg-black transition-colors ease-out duration-300"
+          >
+            <span> Get to know Us</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--Service Provided *Slider*-->
+    <section class="min-h-[30rem] relative">
+      <div
+        class="flex justify-between items-start p-8 bg-[#3784a6] h-[15rem] max-[767px]:flex-col max-[767px]:justify-start max-[767px]:h-[20rem] max-[767px]:gap-4"
+      >
+        <div class="flex flex-col gap-3 text-white">
+          <h3 class="text-3xl font-bold">Our Medical Health Care Services</h3>
+          <p>
+            We provide you the best service with our strong staff and high
+            technology,
+          </p>
+        </div>
+        <button
+          class="font-semibold text-white flex border-2 p-4 rounded-sm hover:bg-black transition-colors ease-out duration-300 max-[767px]:w-full items-center max-[767px]:justify-center"
+        >
+          <span>All serivces</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="slider-container mt-[-120px] max-[767px]:mt-[-60px]">
+        <div class="card-wrapper" id="cardWrapper">
+          <div class="card relative group" data-index="0">
+            <img
+              class="w-full h-full object-cover absolute rounded-[10px] inset-0 -z-0"
+              src="./assets/images/service cards/brain-surgery.jpg"
+              alt="brain-surgery"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-[#3784a6]/100 to-transparent z-10 rounded-[10px] opacity-100 group-hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div
+              class="absolute inset-0 bg-gradient-to-b from-transparent to-black/50 z-20 rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            ></div>
+            <div class="relative z-50 text-white p-4 service-content">
+              <p class="text-left">
+                Our platform has adopted the principle of providing the best
+                serivces with its specialist doctors in the field of Neurology.
+              </p>
+              <a href="/pages/services/BrainSurgery.html">
+                <button
+                  class="bg-[#3784a6] px-8 py-5 rounded-md flex items-center border-2 mt-4"
+                >
+                  <span>Brain Surgery</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h    16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="card relative group" data-index="1">
+            <img
+              class="w-full h-full object-cover absolute rounded-[10px] inset-0 -z-0"
+              src="./assets/images/service cards/eye-scan-process.jpg"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-[#3784a6]/100 to-transparent z-10 rounded-[10px] opacity-100 group-hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div
+              class="absolute inset-0 bg-gradient-to-b from-transparent to-black/50 z-20 rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            ></div>
+            <div class="relative z-50 text-white p-4 service-content">
+              <p class="text-left">
+                Our platform has adopted the principle of providing the best
+                serivces with its specialist doctors in Eye Health.
+              </p>
+              <a href="/pages/services/EyeHealth.html">
+                <button
+                  class="bg-[#3784a6] px-8 py-5 rounded-md flex gap-3 items-center border-2 mt-4"
+                >
+                  <span>Eye Health</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="card relative group" data-index="2">
+            <img
+              class="w-full h-full object-cover absolute rounded-[10px] inset-0 -z-0"
+              src="./assets/images/service cards/heart-ultrasound-exam-senior-man-600nw-2163903913.webp"
+              alt="Gynaecology"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-[#3784a6]/100 to-transparent z-10 rounded-[10px] opacity-100 group-hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div
+              class="absolute inset-0 bg-gradient-to-b from-transparent to-black/50 z-20 rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            ></div>
+            <div class="relative z-50 text-white p-4 service-content">
+              <p class="text-left">
+                Our platform has adopted the principle of providing the best
+                serivces with its specialist doctors in the field of
+                Gynaecology.
+              </p>
+              <a href="/pages/services/Gynaecology.html">
+                <button
+                  class="bg-[#3784a6] px-8 py-5 rounded-md flex gap-3 items-center border-2 mt-4"
+                >
+                  <span>Gynaecology</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="card relative group" data-index="3">
+            <img
+              class="w-full h-full object-cover absolute rounded-[10px] inset-0 -z-0"
+              src="./assets/images/service cards/cardio_forpatients_page-scaled.jpg"
+              alt="cardiology"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-[#3784a6]/100 to-transparent z-10 rounded-[10px] opacity-100 group-hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div
+              class="absolute inset-0 bg-gradient-to-b from-transparent to-black/50 z-20 rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            ></div>
+            <div class="relative z-50 text-white p-4 service-content">
+              <p class="text-left">
+                Our platform has adopted the principle of providing the best
+                serivces with its specialist doctors in the field of Cardiology.
+              </p>
+              <a href="/pages/services/Cardiology.html">
+                <button
+                  class="bg-[#3784a6] px-8 py-5 rounded-md flex gap-3 items-center border-2 mt-4"
+                >
+                  <span>Cardiology</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="card relative group" data-index="4">
+            <img
+              class="w-full h-full object-cover absolute rounded-[10px] inset-0 -z-0"
+              src="./assets/images/service cards/5e20f0e5e400c637d5951e41_Orthopedics.jpg"
+              alt="Orthopedics"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-[#3784a6]/100 to-transparent z-10 rounded-[10px] opacity-100 group-hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div
+              class="absolute inset-0 bg-gradient-to-b from-transparent to-black/50 z-20 rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            ></div>
+            <div class="relative z-50 text-white p-4 service-content">
+              <p class="text-left">
+                Our platform has adopted the principle of providing the best
+                serivces with its specialist doctors in the field of
+                Orthopedics.
+              </p>
+              <a href="/pages/services/Orthopedics.html">
+                <button
+                  class="bg-[#3784a6] px-8 py-5 rounded-md flex gap-3 items-center border-2 mt-4"
+                >
+                  <span>Orthopedics</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navigation-buttons pb-5" id="navButtons">
+          <!-- Buttons will be dynamically generated -->
+        </div>
+      </div>
+    </section>
+    <!-- What we Offer-->
+    <section id="what-we-offer"></section>
+    <!--Why Choose Us-->
+    <section id="why-choose-us"></section>
+    <!--Testimonial section-->
+    <section class="testimonial-section">
+      <div
+        class="flex flex-col justify-center gap-3 items-center mb-6 max-[767px]:p-8"
+      >
+        <h2 class="text-3xl font-bold max-[767px]:text-center">
+          Satisfied Patients Reviews
+        </h2>
+        <p>Opinions of our happy patients.</p>
+      </div>
+      <div class="slider-container">
+        <div class="slider-track">
+          <!-- Group 1 -->
+          <div class="slider-group max-[767px]:flex-col">
+            <div class="testimonial-card">
+              <div class="testimonial-image"></div>
+              <h4 class="testimonial-author">Adam</h4>
+              <p class="testimonial-text">
+                " I was extremely satisfied with the experience and dialogue
+                between the physicians I went to. Thanks. "
+              </p>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-image"></div>
+              <h4 class="testimonial-author">Adam</h4>
+              <p class="testimonial-text">
+                " I was extremely satisfied with the experience and dialogue
+                between the physicians I went to. Thanks. "
+              </p>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-image"></div>
+              <h4 class="testimonial-author">Adam</h4>
+              <p class="testimonial-text">
+                " I was extremely satisfied with the experience and dialogue
+                between the physicians I went to. Thanks. "
+              </p>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-image"></div>
+              <h4 class="testimonial-author">Adam</h4>
+              <p class="testimonial-text">
+                " I was extremely satisfied with the experience and dialogue
+                between the physicians I went to. Thanks. "
+              </p>
+            </div>
+          </div>
+
+          <!-- Group 2 -->
+          <div class="slider-group">
+            <div class="testimonial-card">
+              <div class="testimonial-image"></div>
+              <h4 class="testimonial-author">Adam</h4>
+              <p class="testimonial-text">
+                " I was extremely satisfied with the experience and dialogue
+                between the physicians I went to. Thanks. "
+              </p>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-image"></div>
+              <h4 class="testimonial-author">Adam</h4>
+              <p class="testimonial-text">
+                " I was extremely satisfied with the experience and dialogue
+                between the physicians I went to. Thanks. "
+              </p>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-image"></div>
+              <h4 class="testimonial-author">Adam</h4>
+              <p class="testimonial-text">
+                " I was extremely satisfied with the experience and dialogue
+                between the physicians I went to. Thanks. "
+              </p>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-image"></div>
+              <h4 class="testimonial-author">Adam</h4>
+              <p class="testimonial-text">
+                " I was extremely satisfied with the experience and dialogue
+                between the physicians I went to. Thanks. "
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="navigation-buttons-2">
+          <button class="nav-button prev-button">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <button class="nav-button next-button">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="goto-buttons">
+        <button class="goto-button active" data-index="0"></button>
+        <button class="goto-button" data-index="1"></button>
+      </div>
+    </section>
+    <!--FAQ-->
+    <section
+      class="grid grid-cols-2 h-[30rem] bg-[#5098b7] max-[767px]:flex max-[767px]:flex-col max-[767px]:h-[60rem]"
+    >
+      <div
+        class="relative w-full h-full flex justify-end max-[767px]:justify-center max-[767px]:h-[30rem]"
+      >
+        <img
+          src="./assets/images/doctor-preparing-routine-medical-check.png"
+          alt="a female doc"
+          class="absolute object-contain h-full w-full"
+        />
+      </div>
+      <div class="p-5 text-white">
+        <div class="flex flex-col gap-2">
+          <h2 class="text-3xl font-bold">Need Help?</h2>
+          <p>Frequently asked Questions.</p>
+        </div>
+        <!--Accordion-->
+        <div class="accordion">
+          <div class="accordion-header">Do yo need an appointment?</div>
+          <div class="accordion-content">
+            <p>We serve with an appointment system.</p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-header">Are your doctors full time?</div>
+          <div class="accordion-content">
+            <p>We have both full-time and part-time doctors</p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-header">
+            Do you have a neonatal intensive care unit?
+          </div>
+          <div class="accordion-content">
+            <p>Yes there is.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <section id="footer"></section>
+    <button class="scroll-top-btn" id="scrollTopBtn">
+      <div class="arrow-up"></div>
+    </button>
+    <script type="module" src="scripts/main.js"></script>
+  </body>
+</html>

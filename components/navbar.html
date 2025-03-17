@@ -1,0 +1,80 @@
+<div class="sentinel"></div>
+<!-- Sentinel element -->
+<nav
+  class="h-24 px-10 fixed top-0 left-0 right-0 z-50 w-full flex justify-between items-center"
+  id="nav"
+>
+  <a href="/index.html">Health</a>
+  <div class="flex gap-5">
+    <div role="link" tabindex="0" onclick="window.location.href='/index.html'">
+      Home
+    </div>
+    <div role="link" tabindex="1" onclick="window.location.href='/pages/About.html'">
+      About
+    </div>
+    <div
+      role="link"
+      tabindex="2"
+      onclick="window.location.href='#'"
+      href="#services"
+      class="relative group"
+      id="service-link"
+    >
+      <span>Services</span>
+      <div class="absolute top-14 z-50 bg-white p-4 h-auto hidden font-medium">
+        <a href="/pages/services/BrainSurgery.html">Brain Surgery</a>
+        <a href="/pages/services/EyeHealth.html">Eye Health</a>
+        <a href="/pages/services/Cardiology.html">Cardiology</a>
+        <a href="/pages/services/Gynaecology.html">Gynaecology</a>
+        <a href="/pages/services/Orthopedics.html">Orthopedic</a>
+      </div>
+    </div>
+    <div
+      role="link"
+      tabindex="3"
+      onclick="window.location.href='/pages/Contact.html'"
+      h
+    >
+      Contact
+    </div>
+    <!--dropdowns-->
+  </div>
+  <a href="#">
+    <button
+      class="bg-[#3784a6] px-4 py-5 text-xl font-semibold text-white rounded-md flex items-center gap-2 hover:bg-black transition-colors ease-out duration-300"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="size-10"
+      >
+        <path
+          d="M12 11.993a.75.75 0 0 0-.75.75v.006c0 .414.336.75.75.75h.006a.75.75 0 0 0 .75-.75v-.006a.75.75 0 0 0-.75-.75H12ZM12 16.494a.75.75 0 0 0-.75.75v.005c0 .414.335.75.75.75h.005a.75.75 0 0 0 .75-.75v-.005a.75.75 0 0 0-.75-.75H12ZM8.999 17.244a.75.75 0 0 1 .75-.75h.006a.75.75 0 0 1 .75.75v.006a.75.75 0 0 1-.75.75h-.006a.75.75 0 0 1-.75-.75v-.006ZM7.499 16.494a.75.75 0 0 0-.75.75v.005c0 .414.336.75.75.75h.005a.75.75 0 0 0 .75-.75v-.005a.75.75 0 0 0-.75-.75H7.5ZM13.499 14.997a.75.75 0 0 1 .75-.75h.006a.75.75 0 0 1 .75.75v.005a.75.75 0 0 1-.75.75h-.006a.75.75 0 0 1-.75-.75v-.005ZM14.25 16.494a.75.75 0 0 0-.75.75v.006c0 .414.335.75.75.75h.005a.75.75 0 0 0 .75-.75v-.006a.75.75 0 0 0-.75-.75h-.005ZM15.75 14.995a.75.75 0 0 1 .75-.75h.005a.75.75 0 0 1 .75.75v.006a.75.75 0 0 1-.75.75H16.5a.75.75 0 0 1-.75-.75v-.006ZM13.498 12.743a.75.75 0 0 1 .75-.75h2.25a.75.75 0 1 1 0 1.5h-2.25a.75.75 0 0 1-.75-.75ZM6.748 14.993a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Z"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M18 2.993a.75.75 0 0 0-1.5 0v1.5h-9V2.994a.75.75 0 1 0-1.5 0v1.497h-.752a3 3 0 0 0-3 3v11.252a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3V7.492a3 3 0 0 0-3-3H18V2.993ZM3.748 18.743v-7.5a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v7.5a1.5 1.5 0 0 1-1.5 1.5h-13.5a1.5 1.5 0 0 1-1.5-1.5Z"
+          clip-rule="evenodd"
+        />
+      </svg>
+
+      <span>Make Appointment</span>
+    </button>
+  </a>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+    class="size-6"
+    id="menu-toggle"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+    />
+  </svg>
+</nav>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../output.css" rel="stylesheet" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div id="navbar"></div>
+    <div id="draw"></div>
+    <div id="contact-form" class="min-h-[40rem]">
+      <div class="max-[767px]:flex-col max-[767px]:flex">
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1"
+            stroke="#3784a6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z"
+            />
+          </svg>
+          <h3>Customer service</h3>
+          <span>+1 (234) 567 89 10</span>
+        </div>
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1"
+            stroke="#3784a6"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+            />
+          </svg>
+
+          <h3>mail address</h3>
+          <span>example@example.com</span>
+        </div>
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1"
+            stroke="#3784a6"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+            />
+          </svg>
+
+          <h3>Office</h3>
+          <span>eşilpınar Mh. Tepe Sk. Eyüp İstanbu</span>
+        </div>
+      </div>
+      <form
+        action=""
+        class="w-[90%] m-auto grid grid-cols-3 gap-4 p-4 rounded-lg min-h-[20rem] mt-10 max-[767px]:flex max-[767px]:flex-col"
+        id="appointment-form"
+      >
+        <select
+          name="departments"
+          class="form-input"
+          aria-label="Select Department"
+          required
+        >
+          <option selected disabled value="">Departments</option>
+          <option>Italian</option>
+          <option>Japanese</option>
+          <option>Indian</option>
+          <option>Thai</option>
+          <option>French</option>
+        </select>
+        <input type="date" name="date" aria-label="Date" class="form-input" />
+        <select
+          name="favorite-cuisine"
+          aria-label="Select your favorite cuisine..."
+          required
+          class="form-input"
+        >
+          <option selected disabled value="">Reservation Time</option>
+          <option>Italian</option>
+          <option>Japanese</option>
+          <option>Indian</option>
+          <option>Thai</option>
+          <option>French</option>
+        </select>
+        <input
+          type="text"
+          name="name"
+          placeholder="Full Name"
+          aria-label="Text"
+          class="form-input"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          aria-label="Email"
+          autocomplete="email"
+          class="form-input"
+        />
+        <input
+          type="text"
+          name="number"
+          placeholder="Phone Number"
+          aria-label="Number"
+          class="form-input"
+        />
+        <button
+          class="px-12 py-6 bg-[#3784a6] rounded-sm mt-3 text-white flex justify-center hover:bg-black transition-colors ease-out duration-300 col-span-full"
+        >
+          <span class="font-bold">Create Appointment</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </form>
+    </div>
+    <div id="footer"></div>
+    <script type="module" src="../scripts/Contact.js"></script>
+  </body>
+</html>
